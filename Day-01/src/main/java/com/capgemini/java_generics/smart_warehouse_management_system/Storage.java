@@ -3,7 +3,6 @@ package com.capgemini.java_generics.smart_warehouse_management_system;
 import java.util.ArrayList;
 import java.util.List;
 
-// Generics class
 public class Storage<T extends WarehouseItem> {
     // Create the items list variable that can store the data
     private List<T> items = new ArrayList<>();
