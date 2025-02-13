@@ -1,0 +1,4 @@
+Exception Handling: Always handle IOException and use try-with-resources for auto-closing streams.
+Performance: Use buffered streams for large files to minimize I/O operations.
+Character Encoding: Explicitly specify encoding (e.g., StandardCharsets.UTF_8) to avoid platform-dependent issues.
+Decorator Pattern: Java I/O streams can be chained (e.g., BufferedReader wraps FileReader).
