@@ -1,0 +1,1 @@
+Read a text file and count the frequency of each word using a HashMap. Ignore case and punctuation.
