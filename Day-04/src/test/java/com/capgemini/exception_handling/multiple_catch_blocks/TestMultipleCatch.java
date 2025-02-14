@@ -14,7 +14,7 @@ class TestMultipleCatch {
     }
     @Test
     public void testNullPointerException(){
-        
+
         assertEquals("Array is not initialized! Cannot read the array length because \"array\" is null",multipleCatch(nums,0));
 
     }
